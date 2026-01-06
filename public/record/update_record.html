@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Update Medical Record</title>
+</head>
+<body>
+  <h1>Update Medical Record</h1>
+
+  <form action="../../php/update_record.php" method="post">
+    <label for="rid">Record ID (required for update):</label>
+    <input type="number" id="rid" name="rid" required />
+    <br /><br />
+
+    <label for="pid">Patient ID:</label>
+    <input type="number" id="pid" name="pid" />
+    <br /><br />
+
+    <label for="docID">Doctor ID:</label>
+    <input type="number" id="docID" name="docID" />
+    <br /><br />
+
+    <label for="diagnosis">Diagnosis:</label>
+    <input type="text" id="diagnosis" name="diagnosis" />
+    <br /><br />
+
+    <label for="treatment">Treatment:</label>
+    <input type="text" id="treatment" name="treatment" />
+    <br /><br />
+
+    <label for="hospitalName">Hospital Name:</label>
+    <input type="text" id="hospitalName" name="hospitalName" />
+    <br /><br />
+
+    <button type="submit">Update Record</button>
+  </form>
+
+  <p><a href="../index.html">Back to Home</a></p>
+</body>
+</html>

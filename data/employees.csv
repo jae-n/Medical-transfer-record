@@ -1,0 +1,3 @@
+empID,name,startDate,email,phone,shift,role
+100,Dr. Alice Brown,2020-01-15,alice@hospital.com,555-3333,day,Scheduled Staff
+101,Bob Green,2021-03-10,bob@hospital.com,555-4444,night,Immediate Responder

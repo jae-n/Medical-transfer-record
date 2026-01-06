@@ -1,0 +1,3 @@
+rid,pid,docID,diagnosis,treatment,hospitalName
+500,1,1000,Hypertension,Medication,MedDB General
+501,2,1001,Flu,Rest and Fluids,MedDB General
